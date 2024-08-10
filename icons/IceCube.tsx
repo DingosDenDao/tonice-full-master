@@ -1,7 +1,7 @@
 import { IconProps } from "../utils/types";
 
 
-const IceCube: React.FC<IconProps> = ({ size = 24, className = "" }) => {
+const IceCube: React.FC<IconProps> = ({ size = 8, className = "" }) => {
 
     const svgSize = `${size}px`;
 

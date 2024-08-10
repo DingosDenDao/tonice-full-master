@@ -72,11 +72,11 @@ export default function Friends() {
   const handleInviteButtonClick = useCallback(() => {
     navigator.clipboard.writeText(`https://t.me/your_bot_username/start?startapp=kentId`)
       .then(() => {
-        setButtonText("Link copied");
-        showSuccessMessage("Invite link copied to clipboard!");
+        setButtonText("OH FUCKING YES BABY COPY ME OOH YEAH");
+        showSuccessMessage("YOUR LINK IS COPIED NOW SPAM ME DADDY");
 
         setTimeout(() => {
-          setButtonText("Invite a friend");
+          setButtonText("DEADPOOL NEEDS FRIENDS INVITE SOME");
         }, 2000);
       })
       .catch(err => {
@@ -92,18 +92,18 @@ export default function Friends() {
         <div className="flex-grow mt-4 bg-[#f3ba2f] rounded-t-[48px] relative top-glow z-0">
           <div className="absolute top-[2px] left-0 right-0 bottom-0 bg-[#1d2025] rounded-t-[46px] px-4 py-6 overflow-y-auto">
             <div className="relative min-h-full pb-20">
-              <h1 className="text-2xl text-center mb-4">Invite Friends!</h1>
-              <p className="text-center text-gray-400 mb-8">You and your friend will receive bonuses</p>
+              <h1 className="text-2xl text-center mb-4">DEADPOOL NEEDS SOME FRIENDS</h1>
+              <p className="text-center text-gray-400 mb-8">INVITE YOUR FRIENDS AND ENJOY SOME BONUSES</p>
 
               <div className="space-y-2">
                 <div className="flex justify-between items-center bg-[#272a2f] rounded-lg p-4" onClick={() => handleInvite('regular')}>
                   <div className="flex items-center">
                     <Image src={baseGift} alt="Gift" width={40} height={40} />
                     <div className="flex flex-col ml-2">
-                      <span className="font-medium">Invite a friend</span>
+                      <span className="font-medium">INVITE YOUR FRIENDS TO DEADPOOL AND GET</span>
                       <div className="flex items-center">
-                        <IceCube className="w-6 h-6" />
-                        <span className="ml-1 text-[#f3ba2f]">+5,000 for you and your friend</span>
+                        <IceCube className="w-0 h-0" />
+                        <span className="ml-1 text-[#f3ba2f]">25,000 FOR YOU AND YOUR FRIEND</span>
                       </div>
                     </div>
                   </div>
@@ -113,10 +113,10 @@ export default function Friends() {
                   <div className="flex items-center">
                     <Image src={bigGift} alt="Premium Gift" width={40} height={40} />
                     <div className="flex flex-col ml-2">
-                      <span className="font-medium">Invite a friend with Telegram Premium</span>
+                      <span className="font-medium">INVITE SOME FRIENDS TO DEADPOOL WITH TELEGRAM PREMIUM AND GET</span>
                       <div className="flex items-center">
-                        <IceCube className="w-6 h-6" />
-                        <span className="ml-1 text-[#f3ba2f]">+25,000 for you and your friend</span>
+                        <IceCube className="w-0 h-0" />
+                        <span className="ml-1 text-[#f3ba2f]">50,000 FOR YOU AND YOUR FRIEND</span>
                       </div>
                     </div>
                   </div>
@@ -129,7 +129,7 @@ export default function Friends() {
 
               <div className="mt-8">
                 <div className="flex justify-between items-center">
-                  <h2 className="text-lg">List of your friends</h2>
+                  <h2 className="text-lg">YOUR LIST OF FRIENDS YOUVE INVITED TO DEADPOOL</h2>
                   <svg 
                     className="w-6 h-6 text-gray-400 cursor-pointer" 
                     onClick={fetchReferrals} 

@@ -32,18 +32,18 @@ export const mineUpgradeBenefitCoefficient = 1.2;
 
 export const earnData = [
     {
-      category: "Ice Youtube",
+      category: "FOLLOW DEADPOOL_ON_TON",
       tasks: [
         {
-          id: "1",
-          title: "Create Jetton (Token) on TON",
+          id: "0",
+          title: "DEADPOOL_ON_TON",
           tokens: 5000,
-          image: "youtube",
-          description: "In this video, you'll learn how to create a Jetton on the TON Blockchain using a ready-to-use project on GitHub.",
-          callToAction: "Watch video",
-          type: "youtube",
-          link: "https://youtube.com/watch?v=example1",
-          taskStartTimestamp: new Date("2024-07-29T00:00:00Z")
+          image: "Twitter",
+          description: "Follow the official Twitter Page",
+          callToAction: "Follow On Twitter",
+          type: "Twitter",
+          link: "https://x.com/DEADPOOL_ON_TON",
+          taskStartTimestamp: new Date("2024-08-9T00:00:00Z")
         },
         {
           id: "2",

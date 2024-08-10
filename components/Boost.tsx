@@ -228,7 +228,7 @@ export default function Boost({ currentView, setCurrentView }: BoostProps) {
               </div>
             </div>
 
-            <h2 className="text-base mt-8">Free daily boosters</h2>
+            <h2 className="text-base mt-8">FREE DAILY ENERGY BOOSTER</h2>
             <div className="mt-4">
               <button className="w-full flex justify-between items-center bg-[#272a2f] rounded-lg p-4"
                 onClick={handleEnergyRefill}
@@ -243,7 +243,7 @@ export default function Boost({ currentView, setCurrentView }: BoostProps) {
                 {isLoadingRefill ? (
                   <div className="animate-spin rounded-full h-6 w-6 border-b-2 border-white"></div>
                 ) : (
-                  <span className="text-[#f3ba2f]">Refill</span>
+                  <span className="text-[#f3ba2f]">FREEBIE</span>
                 )}
               </button>
             </div>
@@ -276,7 +276,7 @@ export default function Boost({ currentView, setCurrentView }: BoostProps) {
                 <div className="flex items-center">
                   <Image src={battery} alt="Exchange" width={40} height={40} />
                   <div className="flex flex-col ml-2">
-                    <span className="text-left font-medium">Energy limit</span>
+                    <span className="text-left font-medium">DEADPOOLS Energy limit</span>
                     <div className="flex justify-center items-center">
                       <IceCube size={24} />
                       <span className="ml-1 text-gray-500">

@@ -5,16 +5,16 @@ import { calculateUpgradeBenefit, calculateUpgradeCost } from './calculations';
 import { energyUpgradeBaseBenefit, energyUpgradeBasePrice, energyUpgradeBenefitCoefficient, energyUpgradeCostCoefficient, mineUpgradeBaseBenefit, mineUpgradeBasePrice, mineUpgradeBenefitCoefficient, mineUpgradeCostCoefficient, multitapUpgradeBaseBenefit, multitapUpgradeBasePrice, multitapUpgradeBenefitCoefficient, multitapUpgradeCostCoefficient } from './consts';
 
 export const levelNames = [
-  "Ice Cube Intern",
-  "Frosty Freelancer",
-  "Chilly Consultant",
-  "Glacial Manager",
-  "Subzero Supervisor",
-  "Arctic Executive",
-  "Polar CEO",
-  "Tundra Tycoon",
-  "Iceberg Mogul",
-  "Cryogenic Crypto King"
+  "DEADPOOL REJECT",
+  "DEADPOOL NOVICE",
+  "DEADPOOL EXPERT",
+  "DEADPOOL ASSASSIAN",
+  "DEADPOOL KING",
+  "DEADPOOL SPIRIT",
+  "DEADPOOL ANGEL",
+  "DEADPOOL JESUS",
+  "DEADPOOL GOD",
+  "DEADPOOL TITAN"
 ];
 
 export const levelMinPoints = [

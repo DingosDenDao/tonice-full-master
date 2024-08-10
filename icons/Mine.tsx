@@ -1,7 +1,7 @@
 import { IconProps } from "../utils/types";
 
 
-const Mine: React.FC<IconProps> = ({ size = 24, className = "" }) => {
+const Mine: React.FC<IconProps> = ({ size = 0, className = "" }) => {
 
     const svgSize = `${size}px`;
 

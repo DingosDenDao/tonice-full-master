@@ -68,26 +68,26 @@ export default function Mine() {
 
                 <div className="flex-grow mt-4 bg-[#f3ba2f] rounded-t-[48px] relative top-glow z-0">
                     <div className="absolute top-[2px] left-0 right-0 bottom-0 bg-[#1d2025] rounded-t-[46px] px-4 py-6">
-                        <h1 className="text-2xl text-center mb-6">Upgrade Ice Production</h1>
+                        <h1 className="text-2xl text-center mb-6">UPGRADE DEADPOOL PRODUCTION</h1>
 
                         <div className="px-4 mt-4 flex justify-center">
                             <div className="px-4 py-2 flex items-center space-x-2">
-                                <IceCubes className="w-12 h-12 mx-auto" />
+                                <IceCubes className="w-1 h-1 mx-auto" />
                                 <p className="text-4xl text-white" suppressHydrationWarning >{pointsBalance.toLocaleString()}</p>
                             </div>
                         </div>
 
                         <div className="bg-[#272a2f] rounded-lg p-4 mt-6">
                             <div className="flex justify-between items-center mb-4">
-                                <p>Current ice per hour:</p>
+                                <p>Current DEADPOOL per hour:</p>
                                 <p className="text-[#f3ba2f]">{formatNumber(profitPerHour)}</p>
                             </div>
                             <div className="flex justify-between items-center mb-4">
-                                <p>Upgrade cost:</p>
+                                <p>Upgrade DEADPOOL cost:</p>
                                 <p className="text-[#f3ba2f]">{formatNumber(upgradeCost)}</p>
                             </div>
                             <div className="flex justify-between items-center">
-                                <p>Ice per hour increase:</p>
+                                <p>DEADPOOL per hour increase:</p>
                                 <p className="text-[#f3ba2f]">+{formatNumber(upgradeIncrease)}</p>
                             </div>
                         </div>

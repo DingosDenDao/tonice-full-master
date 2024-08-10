@@ -36,7 +36,7 @@ const TaskPopup: React.FC<TaskPopupProps> = ({ task, onClose, onComplete }) => {
       setIsLoading(false);
       onComplete();
       onClose();
-      showSuccessMessage('Task completed successfully!');
+      showSuccessMessage('OMG MORE DEADPOOL NO WAY');
     }, 1000);
   };
 
@@ -51,7 +51,7 @@ const TaskPopup: React.FC<TaskPopupProps> = ({ task, onClose, onComplete }) => {
           <button className="w-fit px-6 py-3 text-xl font-bold bg-blue-500 text-white rounded-2xl">{task.callToAction}</button>
         </div>
         <div className="flex justify-center items-center mb-4">
-          <IceCube className="w-6 h-6" />
+          <IceCube className="w-0 h-0" />
           <span className="text-white font-bold text-2xl ml-1">+{formatNumber(task.tokens)}</span>
         </div>
         <button
@@ -118,12 +118,12 @@ export default function Earn() {
           <div className="absolute top-[2px] left-0 right-0 bottom-0 bg-[#1d2025] rounded-t-[46px] px-4 py-6 overflow-y-auto">
             <div className="relative min-h-full pb-20">
               <div className="flex justify-center mb-4">
-                <IceCube className="w-24 h-24 mx-auto" />
+                <IceCube className="w-0 h-0 mx-auto" />
               </div>
-              <h1 className="text-2xl text-center mb-4">Earn More Ice</h1>
+              <h1 className="text-2xl text-center mb-4">EARN MORE DEADPOOL</h1>
 
               {isLoading ? (
-                <div className="text-center text-gray-400">Loading tasks...</div>
+                <div className="text-center text-gray-400">TASKS COMING SOON</div>
               ) : (
                 Object.entries(groupedTasks).map(([type, tasks]) => (
                   <div key={type}>
@@ -140,7 +140,7 @@ export default function Earn() {
                             <div className="flex flex-col">
                               <span className="font-medium">{task.title}</span>
                               <div className="flex items-center">
-                                <IceCube className="w-6 h-6 mr-1" />
+                                <IceCube className="w-0 h-0 mr-1" />
                                 <span className="text-white">+{formatNumber(task.tokens)}</span>
                               </div>
                             </div>

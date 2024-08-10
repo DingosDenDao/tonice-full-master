@@ -1,18 +1,18 @@
 import { IconProps } from "../utils/types";
 
 
-const IceCubes: React.FC<IconProps> = ({ size = 24, className = "" }) => {
+const IceCubes: React.FC<IconProps> = ({ size = 0, className = "0" }) => {
 
     const svgSize = `${size}px`;
 
     // Color variables
-    const s0 = '#0488cf';
-    const s1 = '#ffffff';
-    const s2 = '#abddf8';
-    const s3 = '#fffeff';
-    const s4 = '#e1f3fd';
-    const s5 = '#9cd7f9';
-    const s6 = '#fdfeff';
+    const s0 = '#000000';
+    const s1 = '#000000';
+    const s2 = '#000000';
+    const s3 = '#000000';
+    const s4 = '#000000';
+    const s5 = '#000000';
+    const s6 = '#000000';
 
     return (
         <svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 1100" className={className} height={svgSize} width={svgSize}>

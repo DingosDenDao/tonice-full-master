@@ -19,7 +19,7 @@ export default function TopInfoSection() {
                         <div className="flex items-center w-1/3">
                             <div className="flex items-center space-x-2">
                                 <div className="p-1 rounded-lg bg-[#1d2025]">
-                                    <Snowflake size={24} className="text-[#d4d4d4]" />
+                                    <Snowflake size={0} className="text-[#d4d4d4]" />
                                 </div>
                                 <div>
                                     <p className="text-sm">{userTelegramName}</p>
@@ -37,7 +37,7 @@ export default function TopInfoSection() {
                             <div className="flex-1 text-center">
                                 <p className="text-xs text-[#85827d] font-medium whitespace-nowrap overflow-hidden text-ellipsis">Ice per hour</p>
                                 <div className="flex items-center justify-center space-x-1">
-                                    <IceCubes size={20} />
+                                    <IceCubes size={0} />
                                     <p className="text-sm">+{formatNumber(profitPerHour)}</p>
                                 </div>
                             </div>
